@@ -4,19 +4,6 @@
   "id" : "f0a65e17-466e-4365-811f-6d3ed72b0c85",
   "label" : "Home",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "numberOfArticles" : 5,
-        "showTitle" : true,
-        "title" : "Top Articles",
-        "topicList" : [ ]
-      },
-      "componentName" : "forceCommunity:topArticleList",
-      "id" : "d3eda5c9-b943-4673-a345-7eb07647311b",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "b24faccd-104f-4675-ae49-cda10a566e78",
     "regionName" : "header",
     "type" : "region"

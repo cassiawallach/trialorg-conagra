@@ -5,7 +5,7 @@
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
     <communityRoles/>
     <description>This help center provides you with a support channel that lets your customers resolve straightforward issues on their own. Customize it to suit your business needs, then publish to give your customers instant access to the critical answers they need.</description>
-    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <disableReputationRecordConversations>false</disableReputationRecordConversations>
     <emailSenderAddress>cwallach@copado.com</emailSenderAddress>
     <emailSenderName>Default Help Center</emailSenderName>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
