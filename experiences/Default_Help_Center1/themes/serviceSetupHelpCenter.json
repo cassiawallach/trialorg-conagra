@@ -202,7 +202,7 @@
       "fixedPageWidth" : 1280,
       "headerBgColor" : "rgba(255, 255, 255, 0.8)",
       "isHeaderPinned" : false,
-      "isHeroUnderHeader" : true,
+      "isHeroUnderHeader" : false,
       "isPageWidthFixed" : true,
       "showHeader" : true,
       "showHero" : true
@@ -216,12 +216,12 @@
           "background" : "background: rgba(0,0,0,0)",
           "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
           "borderBottomColor" : "rgba(0, 0, 0, 0)",
-          "containHeader" : true,
+          "containHeader" : false,
           "containHeaderWidth" : 1280,
-          "headerHeight" : 16,
+          "headerHeight" : 13,
           "languageSelectorLabelColor" : "#ffffff",
           "linkColor" : "#ffffff",
-          "logoWidth" : 150,
+          "logoWidth" : 42,
           "showLanguageSelector" : false
         },
         "componentName" : "forceCommunity:themeHeaderHelpCenter",
@@ -250,7 +250,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "bgImage" : "background: #FFFFFF url(/sfsites/assets/themes/serviceSetupTemplateBackground.png) center /cover",
+          "bgImage" : "background: #FFFFFF url(/sfsites/c/file-asset/X360_F_467592556_ZWEXBysitotqf2elYGc?v=1) center center /cover",
           "bgOverlayColor" : "rgba(0, 0, 0, 0.46)",
           "captionText" : "Get Excited",
           "captionTextColor" : "rgba(255, 255, 255, 1)",
