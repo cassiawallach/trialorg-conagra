@@ -301,7 +301,10 @@
               "borderStyle" : "outline",
               "buttonColor" : "#0070D2",
               "buttonHoverColor" : "#005FB2",
-              "crossObjectTypeaheadApiNames" : "",
+              "crossObjectTypeaheadApiNames" : [ {
+                "isPublic" : true,
+                "name" : "FeedItem"
+              } ],
               "iconColor" : "#FFFFFF",
               "placeholderText" : "Search the help center...",
               "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
