@@ -435,15 +435,6 @@
       "regionName" : "themeHero",
       "type" : "region"
     }, {
-      "components" : [ {
-        "componentAttributes" : {
-          "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.walmartlogo.1}\" alt=\"\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.ConagraBanner.1}\"></p>"
-        },
-        "componentName" : "forceCommunity:richTextInline",
-        "id" : "06e01b2f-c4ae-469f-8172-f0704ffad535",
-        "renditionMap" : { },
-        "type" : "component"
-      } ],
       "id" : "68881b4a-5a41-4fa2-a7a4-01a94cca28bd",
       "regionName" : "themeFooter",
       "type" : "region"
