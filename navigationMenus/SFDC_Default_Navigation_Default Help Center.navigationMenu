@@ -3,4 +3,12 @@
     <container>Default Help Center</container>
     <containerType>Network</containerType>
     <label>Default Navigation</label>
+    <navigationMenuItem>
+        <defaultListViewId>MyCases</defaultListViewId>
+        <label>My Tickets</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Case</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
 </NavigationMenu>
