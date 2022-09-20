@@ -22,8 +22,8 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>cwallach@conagra.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>cwallach@conagra.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>{!Environment.Default Help Center Owner}</siteAdmin>
+    <siteGuestRecordDefaultOwner>{!Environment.Default Help Center Owner}</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>defaulthelpcenter19Aug</urlPathPrefix>
 </CustomSite>
