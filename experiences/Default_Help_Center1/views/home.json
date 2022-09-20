@@ -67,6 +67,16 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3ad157eb-051f-4fc6-8e71-18820edfccba",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "d1b251ff-d773-418d-b254-2c0cd194dc5d",
     "regionName" : "footer",
     "type" : "region"
