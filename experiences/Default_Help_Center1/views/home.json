@@ -10,30 +10,55 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "allowAttachments" : true,
-        "attachmentLabel" : "Upload File",
-        "buttonAlignment" : "center",
-        "buttonBgColor" : "",
-        "buttonBgHoverColor" : "",
-        "buttonBorderColor" : "",
-        "buttonMaxWidth" : "",
-        "buttonRadius" : 0,
-        "buttonTextColor" : "",
-        "buttonTextHoverColor" : "",
-        "callToAction" : false,
-        "callToActionButtonText" : "",
-        "callToActionText" : "",
-        "callToActionUrl" : "",
-        "confirmationSubtext" : "We’ll get back to you soon.",
-        "confirmationText" : "Your case was created.",
-        "guestQuickActionName" : "GuestCommunityCase",
-        "headerSubtitle" : "Tell us how we can help.",
-        "headerTitle" : "Contact Customer Support",
-        "quickActionName" : "NewCommunityCase",
-        "requestSummaryText" : "Case summary"
+        "tabsetConfig" : {
+          "UUID" : "8ab83cca-0dc9-4911-850c-556d96d5509b",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "69ffa3d7-0236-4644-94d8-eaba41712d51",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Tab 1"
+          }, {
+            "UUID" : "aa82db1f-923c-49f5-8a23-62e4a99027d1",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Tab 2"
+          }, {
+            "UUID" : "432dedc7-097d-48df-ba6b-33c157f2394e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Tab 3"
+          } ],
+          "useOverflowMenu" : false
+        }
       },
-      "componentName" : "forceCommunity:contactSupportForm",
-      "id" : "73d64aad-b5c4-4b79-a792-50b5ea65e02c",
+      "componentName" : "forceCommunity:tabset",
+      "id" : "8ab83cca-0dc9-4911-850c-556d96d5509b",
+      "regions" : [ {
+        "id" : "69ffa3d7-0236-4644-94d8-eaba41712d51",
+        "regionLabel" : "Tab 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "aa82db1f-923c-49f5-8a23-62e4a99027d1",
+        "regionLabel" : "Tab 2",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "432dedc7-097d-48df-ba6b-33c157f2394e",
+        "regionLabel" : "Tab 3",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -59,6 +84,35 @@
       },
       "componentName" : "forceCommunity:caseDeflection",
       "id" : "af719b46-f1cf-43b6-aa7f-93d1bee73fd1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : "",
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "GuestCommunityCase",
+        "headerSubtitle" : "Tell us how we can help.",
+        "headerTitle" : "Contact Customer Support",
+        "quickActionName" : "NewCommunityCase",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "73d64aad-b5c4-4b79-a792-50b5ea65e02c",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
