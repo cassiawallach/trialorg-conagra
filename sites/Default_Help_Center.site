@@ -23,7 +23,7 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>{!Environment.Default Help Center Owner}</siteAdmin>
-    <siteGuestRecordDefaultOwner>meden@copado.trial.com</siteGuestRecordDefaultOwner>
+    <siteGuestRecordDefaultOwner>{!Environment.Default Help Center Owner}</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>defaulthelpcenter19Aug</urlPathPrefix>
 </CustomSite>
