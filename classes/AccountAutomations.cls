@@ -1,6 +1,6 @@
 public class AccountAutomations {
 
-  Public static Account setDefaultDescription(Account a){
+ Public static Account setDefaultDescription(Account a){
 
     If (a.Description != null) return a;
 
@@ -14,13 +14,9 @@ public class AccountAutomations {
 
   }
 
-  public static Account setDefaultBillingAddress(Account a){
+  public static Account setDefaultSite(Account a){
 
-    a.billingstreet = 'Basauri, 6';
-
-    a.billingstate = 'Madrid';
-
-    a.billingpostalcode ='28023';
+    a.Site = 'Single location';
 
     return a;
 
@@ -40,7 +36,7 @@ public class AccountAutomations {
 
   public static Account setDefaultPhone(Account a) {
 
-    a.Phone='688456789';
+    a.Phone='9999999';
 
     return a;
 
@@ -48,7 +44,7 @@ public class AccountAutomations {
 
   public static Account setDefaultURL(Account a) {
 
-    a.website = 'www.copa.do';
+    a.website = 'www.copado.com';
 
     return a;
 
