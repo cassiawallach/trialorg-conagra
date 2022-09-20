@@ -68,8 +68,8 @@
         "callToActionUrl" : "",
         "confirmationSubtext" : "We’ll get back to you soon.",
         "confirmationText" : "Your case was created.",
-        "guestQuickActionName" : "GuestCommunityCase",
-        "headerSubtitle" : "Tell us how we can help.",
+        "guestQuickActionName" : "Snapins_Case_OfflineCaseQuickAction_08h4x000000oNfV_1660919948991",
+        "headerSubtitle" : "Tell us how we can help!",
         "headerTitle" : "Contact Customer Support",
         "quickActionName" : "NewCommunityCase",
         "requestSummaryText" : "Case summary"
@@ -79,12 +79,7 @@
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
-    } ],
-    "id" : "e816817f-1a53-49ae-a076-4cf02871536a",
-    "regionName" : "content",
-    "type" : "region"
-  }, {
-    "components" : [ {
+    }, {
       "componentAttributes" : {
         "askConfirmationQuestion" : true,
         "confirmationMessageLabel" : "Got it!",
@@ -101,6 +96,20 @@
       },
       "componentName" : "forceCommunity:caseDeflection",
       "id" : "af719b46-f1cf-43b6-aa7f-93d1bee73fd1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e816817f-1a53-49ae-a076-4cf02871536a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.walmartlogo.1}\" alt=\"\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.ConagraBanner.1}\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "06e01b2f-c4ae-469f-8172-f0704ffad535",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
