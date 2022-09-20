@@ -4,10 +4,6 @@
   "id" : "f0a65e17-466e-4365-811f-6d3ed72b0c85",
   "label" : "Home",
   "regions" : [ {
-    "id" : "b24faccd-104f-4675-ae49-cda10a566e78",
-    "regionName" : "header",
-    "type" : "region"
-  }, {
     "components" : [ {
       "componentAttributes" : {
         "tabsetConfig" : {
@@ -19,21 +15,14 @@
             "locked" : false,
             "seedComponents" : [ ],
             "tabKey" : "1",
-            "tabName" : "Tab 1"
+            "tabName" : "Test Tab 1"
           }, {
             "UUID" : "aa82db1f-923c-49f5-8a23-62e4a99027d1",
             "allowGuestUser" : false,
             "locked" : false,
             "seedComponents" : [ ],
             "tabKey" : "2",
-            "tabName" : "Tab 2"
-          }, {
-            "UUID" : "432dedc7-097d-48df-ba6b-33c157f2394e",
-            "allowGuestUser" : false,
-            "locked" : false,
-            "seedComponents" : [ ],
-            "tabKey" : "3",
-            "tabName" : "Tab 3"
+            "tabName" : "LALALALA"
           } ],
           "useOverflowMenu" : false
         }
@@ -42,20 +31,14 @@
       "id" : "8ab83cca-0dc9-4911-850c-556d96d5509b",
       "regions" : [ {
         "id" : "69ffa3d7-0236-4644-94d8-eaba41712d51",
-        "regionLabel" : "Tab 1",
+        "regionLabel" : "Test Tab 1",
         "regionName" : "1",
         "renditionMap" : { },
         "type" : "region"
       }, {
         "id" : "aa82db1f-923c-49f5-8a23-62e4a99027d1",
-        "regionLabel" : "Tab 2",
+        "regionLabel" : "LALALALA",
         "regionName" : "2",
-        "renditionMap" : { },
-        "type" : "region"
-      }, {
-        "id" : "432dedc7-097d-48df-ba6b-33c157f2394e",
-        "regionLabel" : "Tab 3",
-        "regionName" : "3",
         "renditionMap" : { },
         "type" : "region"
       } ],
@@ -63,31 +46,11 @@
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "e816817f-1a53-49ae-a076-4cf02871536a",
-    "regionName" : "content",
+    "id" : "b24faccd-104f-4675-ae49-cda10a566e78",
+    "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
-      "componentAttributes" : {
-        "askConfirmationQuestion" : true,
-        "confirmationMessageLabel" : "Got it!",
-        "deflectionSubtitle" : "Find what you need here.",
-        "deflectionTitle" : "Need Answers Fast?",
-        "firstQuestion" : "Did this content solve your issue?",
-        "maxResults" : 6,
-        "measureDeflection" : true,
-        "redirectUrl" : "",
-        "secondQuestion" : "Stop creating your case?",
-        "showArticles" : true,
-        "showDiscussions" : false,
-        "topicId" : ""
-      },
-      "componentName" : "forceCommunity:caseDeflection",
-      "id" : "af719b46-f1cf-43b6-aa7f-93d1bee73fd1",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
       "componentAttributes" : {
         "allowAttachments" : true,
         "attachmentLabel" : "Upload File",
@@ -113,6 +76,31 @@
       },
       "componentName" : "forceCommunity:contactSupportForm",
       "id" : "73d64aad-b5c4-4b79-a792-50b5ea65e02c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e816817f-1a53-49ae-a076-4cf02871536a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "af719b46-f1cf-43b6-aa7f-93d1bee73fd1",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
