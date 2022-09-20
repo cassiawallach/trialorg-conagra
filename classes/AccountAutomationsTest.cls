@@ -1,4 +1,4 @@
-@IsTest
+@istest
 
 private class AccountAutomationsTest {
 
@@ -20,19 +20,15 @@ private class AccountAutomationsTest {
 
   }
 
-  @isTest static void testDefaultBillingAddress(){
+  @isTest static void testDefaultSite(){
 
     Account acc = new Account(Name = 'My Test Account');
 
     insert acc;
 
-    acc = AccountAutomations.setDefaultBillingAddress(acc);
+    acc = AccountAutomations.setDefaultSite(acc);
 
-    System.assertEquals('Basauri, 6', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
-
-    System.assertEquals('Madrid', acc.BillingState, 'Default BillingState is Madrid');
-
-    System.assertEquals('28023', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
+    System.assertEquals('Single location', acc.Site, 'Default Site is Single location');
 
   }
 
@@ -60,7 +56,7 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultPhone(acc);
 
-    System.assertEquals('688456789', acc.Phone, 'Default phone number is 688456789');
+    System.assertEquals('9999999', acc.Phone, 'Default phone number is 9999999');
 
   }
 
@@ -72,7 +68,7 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultURL(acc);
 
-    System.assertEquals('www.copa.do', acc.Website, 'Default website is www.copa.do');
+    System.assertEquals('www.copado.com', acc.Website, 'Default website is www.copado.com');
 
   }
 
