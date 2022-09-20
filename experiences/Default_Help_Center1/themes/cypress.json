@@ -330,7 +330,7 @@
             "componentAttributes" : {
               "navAlignment" : "left",
               "navItemThreshold" : 4,
-              "navigationMenuEditorRefresh" : ""
+              "navigationMenuEditorRefresh" : "Default_Help_Center_Navigation_Menu"
             },
             "componentName" : "forceCommunity:themeNav",
             "id" : "422f1dda-828a-43cf-aac3-301f83b5e95a",
