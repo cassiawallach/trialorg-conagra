@@ -437,7 +437,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.ConagraBanner.1}\" alt=\"\"></p>"
+          "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.walmartlogo.1}\" alt=\"\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.ConagraBanner.1}\"></p>"
         },
         "componentName" : "forceCommunity:richTextInline",
         "id" : "06e01b2f-c4ae-469f-8172-f0704ffad535",
