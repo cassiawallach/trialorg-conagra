@@ -6168,6 +6168,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Bicycle__c.testmodel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BusinessBrand.OrgId</field>
         <readable>true</readable>
     </fieldPermissions>
