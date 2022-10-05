@@ -200,6 +200,14 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>sold_out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>sold out</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>testmodel__c</fullName>
         <externalId>false</externalId>
         <label>testmodel</label>
