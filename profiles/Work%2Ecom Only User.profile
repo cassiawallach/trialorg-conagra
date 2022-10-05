@@ -5721,6 +5721,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Bicycle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6047,6 +6052,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AuthorizationFormText.SummaryAuthFormText</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bicycle__c.sold_out__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
